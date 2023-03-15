@@ -171,7 +171,7 @@ li::marker
   left: 0;
   right: 0;
   top: 150%;
-
+z-index: 3;
 }
 
 .description, .link {
