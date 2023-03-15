@@ -164,6 +164,7 @@ font-family: 'Sunflower', sans-serif;
 li::marker
 {
   color: rgb(145, 166, 178);
+  
 }
 
 .button_container {
