@@ -219,11 +219,12 @@ h1:after {
   color: #fff;
   font-weight: 700;
   font-size: 15px;
-  
+  height: auto;
+  width:  auto;
+  left: 45vw;
   background-color: #222;
   padding: 17px 60px;
   margin-top: 35px ;
-  margin-left: 850px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.20);
 }
 
