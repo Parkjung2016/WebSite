@@ -14,6 +14,19 @@ font-family: 'Sunflower', sans-serif;
 animation: anim1 1.5s ease ;
 animation-iteration-count: 1;
 } 
+
+@keyframes anim2 {
+  /* keyframe */
+  from {
+    top: 80px;
+    opacity: 0;
+  }
+  /* keyframe */
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
 div {
   transition:  all 0.5s;
 }
@@ -28,7 +41,22 @@ to {
 opacity: 1;
 }
 }
-
+hr.hr-4 {
+  padding: 0;
+  border: none;
+  border-top: medium double #8c8c8c;
+  color: #8c8c8c;
+  text-align: center;
+  width:  1500px;
+} 
+hr.hr-4:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 4em;
+  padding: 0 0.25em;
+}
 h1 { font-size: 50px;  text-align: center;}
 .container { 
     max-width: 960px; 
@@ -40,6 +68,8 @@ h1 { font-size: 50px;  text-align: center;}
 
   h1.second {
     font-weight: 200;
+    animation: anim2 1s ease ;
+    animation-iteration-count: 1;
   }
   
   h1.second span {
