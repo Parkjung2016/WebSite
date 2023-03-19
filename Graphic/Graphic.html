@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인화면</title>
+    <link rel="stylesheet" href="Graphic.css">
+</head>
+<body>
+    
+    <div class="button_container2">
+        <button class="btn2" onclick="selectsubject()"><span>과목 선택으로</span></button>
+    </div>
+    <div class="twelve">
+        <h1>그래픽 수업 노트</h1>
+        <h4 style="margin-left: 800px; margin-top: -20px;">10211 박정호</h4>
+      </div>
+
+
+       <div class="button_container">
+        <button onclick="firstclass()" class="btn"><span>1번째 수업</span></button>
+        <button onclick="Secondclass()" class="btn"><span>2번째 수업</span></button>
+        <button onclick="Thirdclass()" class="btn"><span>3번째 수업</span></button>
+        <button onclick="Fourthclass()" class="btn"><span>4번째 수업</span></button>
+        <button onclick="Fifthclass()" class="btn"><span>5번째 수업</span></button>
+        <button onclick="Sixthclass()" class="btn"><span>6번째 수업</span></button>
+        <button onclick="Seventhlass()" class="btn"><span>7번째 수업</span></button>
+      </div>
+
+   
+      <script>
+        function firstclass() {
+            location.href='FirstClass.html'
+        }
+        function selectsubject() {
+            location.href='/index/index.html'
+        }
+        function Secondclass() {
+            location.href='SecondClass.html'
+        }
+        function Thirdclass() {
+            location.href='ThirdClass.html'
+        }
+        function Fourthclass() {
+            location.href='FourthClass.html'
+        }
+        function Fifthclass() {
+            location.href='FifthClass.html'
+        }
+        function Sixthclass() {
+            location.href='SixthClass.html'
+        }
+        function Seventhlass() {
+            location.href='SeventhClass.html'
+        }
+      </script>
+</body>
+</html>
